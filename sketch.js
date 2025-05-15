@@ -40,7 +40,7 @@ function setup() {
   zombie = createSprite(50, 160, 20, 50);
   zombie.addAnimation("running", zombie_running);
   zombie.addAnimation("collided", zombie_collided);
-  zombie.scale = 0.3;
+  zombie.scale = 0.1;
 
   ground = createSprite(200, 180, 400, 20);
   ground.addImage("ground", groundImage);
